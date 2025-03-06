@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Women's Day Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div class="fireworks"></div>
+    <div class="particles-container"></div>
+    <div class="decoration">
+        <div class="flower clickable" style="top: 10%; left: 5%" data-type="flower">🌺</div>
+        <div class="flower clickable" style="top: 20%; right: 10%" data-type="flower">🌹</div>
+        <div class="flower clickable" style="bottom: 15%; left: 8%" data-type="flower">💐</div>
+        <div class="flower clickable" style="bottom: 25%; right: 15%" data-type="flower">🌷</div>
+        <div class="gift clickable" style="top: 30%; left: 15%" data-type="gift">👑</div>
+        <div class="gift clickable" style="bottom: 20%; right: 10%" data-type="gift">💝</div>
+        <div class="flower clickable" style="top: 40%; left: 80%" data-type="flower">🌸</div>
+        <div class="flower clickable" style="bottom: 35%; left: 75%" data-type="flower">💮</div>
+        <div class="gift clickable" style="top: 15%; right: 20%" data-type="gift">💖</div>
+        <div class="gift clickable" style="bottom: 10%; left: 25%" data-type="gift">✨</div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="sparkles"></div>
+            <h1 class="rainbow-text">💝 Happy Women's Day! 💝</h1>
+            <p class="subtitle">Celebrating the strength, beauty, and achievements of women everywhere</p>
+            <div class="input-container">
+                <input type="text" id="nameInput" placeholder="✨ Enter your name, amazing woman! ✨">
+                <button onclick="showMessage()" class="glow-button">
+                    <span>💖 Get Your Special Message 💖</span>
+                </button>
+            </div>
+            <div id="messageDisplay" class="message"></div>
+            <div class="celebration-overlay"></div>
+        </div>
+    </div>
+    <footer class="footer" style="font-size: 10px;">
+        <p>Created with <span class="heart">❤️</span> by TLAIT</p>
+        <p>Developed in collaboration with AI | © 2025 All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
